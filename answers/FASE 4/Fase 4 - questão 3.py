@@ -2,12 +2,12 @@
 aaa = -999999999
 bbb = 999999999
 while True:
-    giosbfbned = input('Digite um número, se quiser parar digite "P": ')
-    if giosbfbned == "P" or giosbfbned == "p":
+    numero = input('Digite um número, se quiser parar digite "P": ')
+    if numero == "P" or numero == "p":
         break
-    if int(giosbfbned)>int(aaa):
-        aaa = giosbfbned
-    if int(giosbfbned)<int(bbb):
-        bbb = giosbfbned
+    if int(numero)>int(aaa):
+        aaa = numero
+    if int(numero)<int(bbb):
+        bbb = numero
 print(f'{aaa} é o maior dos números inseridos')
 print(f'{bbb} é o menor dos números inseridos')
